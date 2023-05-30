@@ -66,7 +66,7 @@ function App() {
   };
 
   const fetchNumberOfAvailableSeats = async () => {
-    const URL = "https://book-seats-in-a-coach-app-api.onrender.com/countAvailableSeats";
+    const URL = "https://book-seats-in-a-coach-app-api.onrender.com/bookings/countAvailableSeats";
     const getResponse = await fetch(URL, {
       method: "GET",
     }).then((req) => req.json());
