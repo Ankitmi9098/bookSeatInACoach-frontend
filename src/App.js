@@ -40,7 +40,7 @@ function App() {
   };
 
   const seatBookingHandler = async () => {
-    const URL = "http://localhost:8001/bookings/bookSeats";
+    const URL = "https://book-seats-in-a-coach-app-api.onrender.com/bookings/bookSeats";
     const getResponse = await fetch(URL, {
       method: "PATCH",
       headers: {
@@ -57,7 +57,7 @@ function App() {
   
 
   const getSeatDetails = async () => {
-    const URL = "http://localhost:8001/bookings/getSeatDetails";
+    const URL = "https://book-seats-in-a-coach-app-api.onrender.com/bookings/getSeatDetails";
     const getResponse = await fetch(URL, {
       method: "GET",
     }).then((req) => req.json());
@@ -66,7 +66,7 @@ function App() {
   };
 
   const fetchNumberOfAvailableSeats = async () => {
-    const URL = "http://localhost:8001/bookings/countAvailableSeats";
+    const URL = "https://book-seats-in-a-coach-app-api.onrender.com/countAvailableSeats";
     const getResponse = await fetch(URL, {
       method: "GET",
     }).then((req) => req.json());
