@@ -1,0 +1,111 @@
+.head {
+  width: 400px;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+}
+.center {
+  justify-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.booked {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  margin: 2px;
+  color: #fff;
+  background-color: red;
+}
+
+.notBooked {
+  width: 20px;
+  height: 20px;
+  border: 1px solid green;
+  margin: 2px;
+  color: #fff;
+  background-color: green;
+}
+
+.train {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+}
+
+.grid-item {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.validationError {
+  color: rgb(194, 37, 37);
+  font-size: 15px;
+}
+
+.legends {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.button {
+  background-color: #316fe1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 11px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input {
+  background-color: #d3d0d06e;
+  padding: 6px 5px;
+  font-size: 17px;
+  margin: 7px 0px;
+}
+
+.inputLabel {
+  font-size: 16px;
+  padding: 8px 0px 0px 0px;
+  margin: 3px 0px;
+  font-weight: bold;
+}
+
+.bookedSeatsDetails {
+  margin: 8px 5px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.bookedSeats {
+  font-weight: bold;
+  color: #d30000d6;
+  font-size: 17px;
+}
+.availableSeats{
+  color: #199c19;
+}
